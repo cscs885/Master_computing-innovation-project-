@@ -1,0 +1,1117 @@
+@relation 'Post-weka.filters.unsupervised.attribute.Remove-R8-9,12-22,28,41-46,48,last-weka.filters.unsupervised.attribute.StringToWordVector-R8,9,14,27-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.SnowballStemmer -S porter-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.NGramTokenizer -max 3 -min 2 -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.unsupervised.attribute.Reorder-Rfirst-24,26-last,25'
+
+@attribute Score numeric
+@attribute ViewCount numeric
+@attribute AnswerCount numeric
+@attribute CommentCount numeric
+@attribute FavoriteCount numeric
+@attribute PostTypeId {1,2}
+@attribute AcceptedAnswer {0,1}
+@attribute OwnerType {1,2}
+@attribute Closed {0,1}
+@attribute NowMinusCreation numeric
+@attribute NowMinusLastActivity numeric
+@attribute CHARACTERS numeric
+@attribute FLESCH_KINCAID numeric
+@attribute ARI numeric
+@attribute SYLLABLES numeric
+@attribute SENTENCES numeric
+@attribute COLEMAN_LIAU numeric
+@attribute GUNNING_FOG numeric
+@attribute COMPLEXWORDS numeric
+@attribute SMOG_INDEX numeric
+@attribute SMOG numeric
+@attribute FLESCH_READING numeric
+@attribute WORDS numeric
+@attribute levenshtein numeric
+@attribute '#include #includ' numeric
+@attribute '#include #include void' numeric
+@attribute '#include void' numeric
+@attribute '#include void funct' numeric
+@attribute '$ class1' numeric
+@attribute '$ class1 class2' numeric
+@attribute '&& a' numeric
+@attribute '&& a ex' numeric
+@attribute '*str {' numeric
+@attribute '*str { char' numeric
+@attribute '-Wall -Wextra' numeric
+@attribute '-Wall -Wextra hw' numeric
+@attribute '-Wextra hw' numeric
+@attribute '-Wextra hw cpp' numeric
+@attribute '//stackoverflow com/questions/247311/sqldatareader-in-this-scenario-will-the-reader-get-clos' numeric
+@attribute '0 beta' numeric
+@attribute '0 beta to' numeric
+@attribute '0 i' numeric
+@attribute '0 i <' numeric
+@attribute '1 I' numeric
+@attribute '1 I want' numeric
+@attribute '1 Some' numeric
+@attribute '1 Some text' numeric
+@attribute '1 }' numeric
+@attribute '1 } It' numeric
+@attribute '255 i++' numeric
+@attribute '255 i++ large_string[i]' numeric
+@attribute '3 5' numeric
+@attribute '3 5 [1]' numeric
+@attribute '3 mai' numeric
+@attribute '3 may b' numeric
+@attribute '5 [1]' numeric
+@attribute '5 [1] http' numeric
+@attribute '5 sqlconnect' numeric
+@attribute '6 with' numeric
+@attribute '6 with iOS' numeric
+@attribute '7 beta' numeric
+@attribute '7 beta I' numeric
+@attribute '7 if' numeric
+@attribute '7 if I' numeric
+@attribute '9 0' numeric
+@attribute '9 0 beta' numeric
+@attribute '< 255' numeric
+@attribute '< 255 i++' numeric
+@attribute '= 0' numeric
+@attribute '= 0 i' numeric
+@attribute '= A' numeric
+@attribute '= A function' numeric
+@attribute '= null' numeric
+@attribute '= null stil' numeric
+@attribute '= null {' numeric
+@attribute 'A function' numeric
+@attribute 'A function large_str' numeric
+@attribute 'Boolean& isInTransact' numeric
+@attribute 'Boolean& isInTransaction at' numeric
+@attribute 'But ther' numeric
+@attribute 'But there i' numeric
+@attribute 'CSS style' numeric
+@attribute 'CSS style us' numeric
+@attribute 'Close method' numeric
+@attribute 'Close method anywai' numeric
+@attribute 'Close method explicitli' numeric
+@attribute 'Data SqlCli' numeric
+@attribute 'Data SqlClient SqlConnect' numeric
+@attribute 'Data SqlClient SqlConnectionPoolManag' numeric
+@attribute 'Data at' numeric
+@attribute 'Data at System' numeric
+@attribute 'Does anyon' numeric
+@attribute 'Does anyone that' numeric
+@attribute 'Exception System' numeric
+@attribute 'Exception System InvalidOperationExcept' numeric
+@attribute 'Framework 3' numeric
+@attribute 'Framework 3 5' numeric
+@attribute 'GetPooledConnection SqlConnectionStr' numeric
+@attribute 'GetPooledConnection SqlConnectionString opt' numeric
+@attribute 'Here i' numeric
+@attribute 'Here is how' numeric
+@attribute 'How do' numeric
+@attribute 'How do I' numeric
+@attribute 'However I' numeric
+@attribute 'However I did' numeric
+@attribute 'I am' numeric
+@attribute 'I am us' numeric
+@attribute 'I did' numeric
+@attribute 'I did not' numeric
+@attribute 'I find' numeric
+@attribute 'I find an' numeric
+@attribute 'I had' numeric
+@attribute 'I had to' numeric
+@attribute 'I have' numeric
+@attribute 'I have seen' numeric
+@attribute 'I have thi' numeric
+@attribute 'I have to' numeric
+@attribute 'I have with' numeric
+@attribute 'I m' numeric
+@attribute 'I m fairli' numeric
+@attribute 'I m get' numeric
+@attribute 'I m run' numeric
+@attribute 'I tri' numeric
+@attribute 'I tried us' numeric
+@attribute 'I upgrad' numeric
+@attribute 'I upgraded mi' numeric
+@attribute 'I want' numeric
+@attribute 'I want to' numeric
+@attribute 'InvalidOperationException Messag' numeric
+@attribute 'InvalidOperationException Message Timeout' numeric
+@attribute 'Is the' numeric
+@attribute 'Is the SqlClient' numeric
+@attribute 'Is thi' numeric
+@attribute 'Is this standard' numeric
+@attribute 'It ' numeric
+@attribute 'It s compil' numeric
+@attribute 'It work' numeric
+@attribute 'It worked fin' numeric
+@attribute 'Message Timeout' numeric
+@attribute 'Message Timeout expir' numeric
+@attribute 'NET Framework' numeric
+@attribute 'NET Framework 3' numeric
+@attribute 'NET manag' numeric
+@attribute 'NET managed object' numeric
+@attribute 'NOT give' numeric
+@attribute 'NOT give a' numeric
+@attribute 'Okey so' numeric
+@attribute 'Okey so for' numeric
+@attribute 'Once I' numeric
+@attribute 'Once I hav' numeric
+@attribute 'Open To' numeric
+@attribute 'Open To fix' numeric
+@attribute 'Please help' numeric
+@attribute 'Please help m' numeric
+@attribute 'SOLVED Okei' numeric
+@attribute 'SOLVED Okey so' numeric
+@attribute 'SQLDataReader object' numeric
+@attribute 'SQLDataReader objects I' numeric
+@attribute 'Shouldn t' numeric
+@attribute 'Shouldn t garbag' numeric
+@attribute 'Shouldn t run' numeric
+@attribute 'So instead' numeric
+@attribute 'So instead th' numeric
+@attribute 'Some text' numeric
+@attribute 'Some text 1' numeric
+@attribute 'Sometimes or' numeric
+@attribute 'Sometimes or wel' numeric
+@attribute 'Source System' numeric
+@attribute 'Source System Data' numeric
+@attribute 'SqlClient SqlConnect' numeric
+@attribute 'SqlClient SqlConnection Open' numeric
+@attribute 'SqlClient SqlConnectionPoolManag' numeric
+@attribute 'SqlClient SqlConnectionPoolManager GetPooledConnect' numeric
+@attribute 'SqlClient SqlDataRead' numeric
+@attribute 'SqlClient SqlDataReader Clos' numeric
+@attribute 'SqlClient SqlDataReader a' numeric
+@attribute 'SqlConnection Open' numeric
+@attribute 'SqlConnection Open To' numeric
+@attribute 'SqlConnectionPoolManager GetPooledConnect' numeric
+@attribute 'SqlConnectionPoolManager GetPooledConnection SqlConnectionStr' numeric
+@attribute 'SqlConnectionString opt' numeric
+@attribute 'SqlConnectionString options Boolean&' numeric
+@attribute 'SqlDataReader Clos' numeric
+@attribute 'SqlDataReader Close method' numeric
+@attribute 'SqlDataReader a' numeric
+@attribute 'SqlDataReader a NET' numeric
+@attribute 'String =' numeric
+@attribute 'String = nul' numeric
+@attribute 'String i' numeric
+@attribute 'String is nul' numeric
+@attribute 'String str' numeric
+@attribute 'String str then' numeric
+@attribute 'System Data' numeric
+@attribute 'System Data SqlCli' numeric
+@attribute 'System Data at' numeric
+@attribute 'System InvalidOperationExcept' numeric
+@attribute 'System InvalidOperationException Messag' numeric
+@attribute 'Thanks in' numeric
+@attribute 'Thanks in adv' numeric
+@attribute 'The cod' numeric
+@attribute 'The code below' numeric
+@attribute 'The detail' numeric
+@attribute 'The detailed error' numeric
+@attribute 'The issu' numeric
+@attribute 'The issue i' numeric
+@attribute 'The timeout' numeric
+@attribute 'The timeout period' numeric
+@attribute 'This mai' numeric
+@attribute 'This may hav' numeric
+@attribute 'Timeout expir' numeric
+@attribute 'Timeout expired Th' numeric
+@attribute 'To fix' numeric
+@attribute 'To fix thi' numeric
+@attribute 'Which i' numeric
+@attribute 'Which i hav' numeric
+@attribute 'Why cal' numeric
+@attribute 'Why call SqlCli' numeric
+@attribute 'Why do' numeric
+@attribute 'Why do w' numeric
+@attribute 'Why does it' numeric
+@attribute 'Xcode 6' numeric
+@attribute 'Xcode 6 with' numeric
+@attribute 'Xcode I' numeric
+@attribute 'Xcode Is thi' numeric
+@attribute '[1] http' numeric
+@attribute '[1] http //stackoverflow' numeric
+@attribute '[here][1] and' numeric
+@attribute '[here][1] and it' numeric
+@attribute 'a NET' numeric
+@attribute 'a NET manag' numeric
+@attribute 'a Str' numeric
+@attribute 'a String i' numeric
+@attribute 'a connect' numeric
+@attribute 'a connection from' numeric
+@attribute 'a ex' numeric
+@attribute 'a exe But' numeric
+@attribute 'a pr' numeric
+@attribute 'a pre cod' numeric
+@attribute 'a rel' numeric
+@attribute 'a related quest' numeric
+@attribute 'a segment' numeric
+@attribute 'a segmentation viol' numeric
+@attribute 'a solut' numeric
+@attribute 'a solution SOLVED' numeric
+@attribute 'a specif' numeric
+@attribute 'a specific class' numeric
+@attribute 'a str' numeric
+@attribute 'a string of' numeric
+@attribute 'a vers' numeric
+@attribute 'a version of' numeric
+@attribute 'a web' numeric
+@attribute 'a web appl' numeric
+@attribute 'action on' numeric
+@attribute 'action on that' numeric
+@attribute 'all pool' numeric
+@attribute 'all pooled connect' numeric
+@attribute 'all th' numeric
+@attribute 'all the SQLDataRead' numeric
+@attribute 'am us' numeric
+@attribute 'am using NET' numeric
+@attribute 'an el' numeric
+@attribute 'an element with' numeric
+@attribute 'an error' numeric
+@attribute 'an error that' numeric
+@attribute 'an explan' numeric
+@attribute 'an explanation or' numeric
+@attribute 'an if' numeric
+@attribute 'an if funct' numeric
+@attribute 'an object' numeric
+@attribute 'an object automat' numeric
+@attribute 'an open' numeric
+@attribute 'an open connect' numeric
+@attribute 'and CSS' numeric
+@attribute 'and CSS styl' numeric
+@attribute 'and I' numeric
+@attribute 'and I upgrad' numeric
+@attribute 'and eith' numeric
+@attribute 'and either wai' numeric
+@attribute 'and it' numeric
+@attribute 'and it furth' numeric
+@attribute 'and max' numeric
+@attribute 'and max pool' numeric
+@attribute 'and run' numeric
+@attribute 'and run lik' numeric
+@attribute 'anyone that' numeric
+@attribute 'anyone that know' numeric
+@attribute 'anyway Pleas' numeric
+@attribute 'anyway Please help' numeric
+@attribute 'app fair' numeric
+@attribute 'app faired Howev' numeric
+@attribute 'application Th' numeric
+@attribute 'application The issu' numeric
+@attribute 'are nul' numeric
+@attribute 'are null pass' numeric
+@attribute 'at System' numeric
+@attribute 'at System Data' numeric
+@attribute 'automatically clos' numeric
+@attribute 'automatically close thi' numeric
+@attribute 'automatically nul' numeric
+@attribute 'automatically null right' numeric
+@attribute 'be becaus' numeric
+@attribute 'be because when' numeric
+@attribute 'be nul' numeric
+@attribute 'be null which' numeric
+@attribute 'be run' numeric
+@attribute 'be running a' numeric
+@attribute 'because al' numeric
+@attribute 'because all pool' numeric
+@attribute 'because when' numeric
+@attribute 'because when i' numeric
+@attribute 'become th' numeric
+@attribute 'become the str' numeric
+@attribute 'below i' numeric
+@attribute 'below is said' numeric
+@attribute 'best practis' numeric
+@attribute 'best practise her' numeric
+@attribute 'beta I' numeric
+@attribute 'beta I m' numeric
+@attribute 'beta to' numeric
+@attribute 'beta to se' numeric
+@attribute 'block Onc' numeric
+@attribute 'block Once I' numeric
+@attribute 'blockquote p' numeric
+@attribute 'blockquote p p' numeric
+@attribute 'buffer str' numeric
+@attribute 'buffer str }' numeric
+@attribute 'buffer[16] strcpi' numeric
+@attribute 'buffer[16] strcpy buff' numeric
+@attribute 'but it' numeric
+@attribute 'but it doesn' numeric
+@attribute 'by thi' numeric
+@attribute 'by this vers' numeric
+@attribute 'c memori' numeric
+@attribute 'c memory stack' numeric
+@attribute 'call SqlClient' numeric
+@attribute 'call SqlClient SqlDataRead' numeric
+@attribute 'call th' numeric
+@attribute 'call the Clos' numeric
+@attribute 'char *str' numeric
+@attribute 'char *str {' numeric
+@attribute 'char buffer[16]' numeric
+@attribute 'char buffer[16] strcpi' numeric
+@attribute 'char large_string[256]' numeric
+@attribute 'char large_string[256] int' numeric
+@attribute 'class and' numeric
+@attribute 'class and CSS' numeric
+@attribute 'class1 class2' numeric
+@attribute 'class1 class2 class3' numeric
+@attribute 'class2 class3' numeric
+@attribute 'class2 class3 class4' numeric
+@attribute 'class3 class4' numeric
+@attribute 'class3 class4 find' numeric
+@attribute 'class4 find' numeric
+@attribute 'class4 find class5' numeric
+@attribute 'class5 hav' numeric
+@attribute 'class5 having css' numeric
+@attribute 'class5 i' numeric
+@attribute 'class5 is vis' numeric
+@attribute 'clean it' numeric
+@attribute 'clean it up' numeric
+@attribute 'close al' numeric
+@attribute 'close all th' numeric
+@attribute 'close an' numeric
+@attribute 'close an open' numeric
+@attribute 'close thi' numeric
+@attribute 'close this Shouldn' numeric
+@attribute 'code below' numeric
+@attribute 'code below i' numeric
+@attribute 'code cod' numeric
+@attribute 'code code cod' numeric
+@attribute 'code code pr' numeric
+@attribute 'code look' numeric
+@attribute 'code looks lik' numeric
+@attribute 'code p' numeric
+@attribute 'code p cod' numeric
+@attribute 'code p p' numeric
+@attribute 'code p pr' numeric
+@attribute 'code p strong' numeric
+@attribute 'code pr' numeric
+@attribute 'code pre cod' numeric
+@attribute 'collector clean' numeric
+@attribute 'collector clean it' numeric
+@attribute 'compiled and' numeric
+@attribute 'compiled and run' numeric
+@attribute 'connection Shouldn' numeric
+@attribute 'connection Shouldn t' numeric
+@attribute 'connection from' numeric
+@attribute 'connection from th' numeric
+@attribute 'connections Th' numeric
+@attribute 'connections The detail' numeric
+@attribute 'connections wer' numeric
+@attribute 'connections were in' numeric
+@attribute 'cpp &&' numeric
+@attribute 'cpp && a' numeric
+@attribute 'css properti' numeric
+@attribute 'css property displai' numeric
+@attribute 'day now' numeric
+@attribute 'day now even' numeric
+@attribute 'defined what' numeric
+@attribute 'defined what it' numeric
+@attribute 'denfined that' numeric
+@attribute 'denfined that it' numeric
+@attribute 'detailed error' numeric
+@attribute 'detailed error i' numeric
+@attribute 'development and' numeric
+@attribute 'development and I' numeric
+@attribute 'device i' numeric
+@attribute 'device is now' numeric
+@attribute 'device to' numeric
+@attribute 'device to io' numeric
+@attribute 'did not' numeric
+@attribute 'did not upgrad' numeric
+@attribute 'display set' numeric
+@attribute 'display set ha' numeric
+@attribute 'div I' numeric
+@attribute 'div I tri' numeric
+@attribute 'div I want' numeric
+@attribute 'div with' numeric
+@attribute 'div with class5' numeric
+@attribute 'do I' numeric
+@attribute 'do I find' numeric
+@attribute 'do I hav' numeric
+@attribute 'do follow' numeric
+@attribute 'do following Str' numeric
+@attribute 'do w' numeric
+@attribute 'do we hav' numeric
+@attribute 'does it' numeric
+@attribute 'does it NOT' numeric
+@attribute 'doesn t' numeric
+@attribute 'doesn t seem' numeric
+@attribute 'doesn t work' numeric
+@attribute 'don t' numeric
+@attribute 'don t get' numeric
+@attribute 'either wai' numeric
+@attribute 'either way if' numeric
+@attribute 'elapsed prior' numeric
+@attribute 'elapsed prior to' numeric
+@attribute 'element with' numeric
+@attribute 'element with a' numeric
+@attribute 'em cod' numeric
+@attribute 'em code p' numeric
+@attribute 'error i' numeric
+@attribute 'error is her' numeric
+@attribute 'error that' numeric
+@attribute 'error that sai' numeric
+@attribute 'even str' numeric
+@attribute 'even strings that' numeric
+@attribute 'exe But' numeric
+@attribute 'exe But ther' numeric
+@attribute 'existed So' numeric
+@attribute 'existed So instead' numeric
+@attribute 'expired Th' numeric
+@attribute 'expired The timeout' numeric
+@attribute 'explanation or' numeric
+@attribute 'explanation or a' numeric
+@attribute 'explicitly clos' numeric
+@attribute 'explicitly close al' numeric
+@attribute 'explicitly close an' numeric
+@attribute 'faired Howev' numeric
+@attribute 'faired However I' numeric
+@attribute 'fairly new' numeric
+@attribute 'fairly new to' numeric
+@attribute 'find an' numeric
+@attribute 'find an el' numeric
+@attribute 'find class5' numeric
+@attribute 'find class5 i' numeric
+@attribute 'fine until' numeric
+@attribute 'fine untill thi' numeric
+@attribute 'fix thi' numeric
+@attribute 'fix this I' numeric
+@attribute 'following Str' numeric
+@attribute 'following String str' numeric
+@attribute 'for i' numeric
+@attribute 'for i =' numeric
+@attribute 'for som' numeric
+@attribute 'for some reason' numeric
+@attribute 'for such' numeric
+@attribute 'for such an' numeric
+@attribute 'from th' numeric
+@attribute 'from the pool' numeric
+@attribute 'function char' numeric
+@attribute 'function char *str' numeric
+@attribute 'function large_str' numeric
+@attribute 'function large_string return' numeric
+@attribute 'function lik' numeric
+@attribute 'function like thi' numeric
+@attribute 'further act' numeric
+@attribute 'further action on' numeric
+@attribute 'further illustr' numeric
+@attribute 'further illustrates th' numeric
+@attribute 'garbage collector' numeric
+@attribute 'garbage collector clean' numeric
+@attribute 'gcc -Wall' numeric
+@attribute 'gcc -Wall -Wextra' numeric
+@attribute 'get Do' numeric
+@attribute 'get Does anyon' numeric
+@attribute 'get th' numeric
+@attribute 'get the div' numeric
+@attribute 'getting an' numeric
+@attribute 'getting an error' numeric
+@attribute 'give a' numeric
+@attribute 'give a segment' numeric
+@attribute 'had to' numeric
+@attribute 'had to explicitli' numeric
+@attribute 'has block' numeric
+@attribute 'has block Onc' numeric
+@attribute 'have occur' numeric
+@attribute 'have occurred becaus' numeric
+@attribute 'have seen' numeric
+@attribute 'have seen a' numeric
+@attribute 'have thi' numeric
+@attribute 'have this div' numeric
+@attribute 'have to' numeric
+@attribute 'have to cal' numeric
+@attribute 'have to upgrad' numeric
+@attribute 'have tot' numeric
+@attribute 'have totally no' numeric
+@attribute 'have with' numeric
+@attribute 'have with a' numeric
+@attribute 'having css' numeric
+@attribute 'having css properti' numeric
+@attribute 'help m' numeric
+@attribute 'help me understand' numeric
+@attribute 'here Except' numeric
+@attribute 'here Exception System' numeric
+@attribute 'here I' numeric
+@attribute 'here I hav' numeric
+@attribute 'how mi' numeric
+@attribute 'how my app' numeric
+@attribute 'how th' numeric
+@attribute 'how the cod' numeric
+@attribute 'http //stackoverflow' numeric
+@attribute 'http //stackoverflow com/questions/247311/sqldatareader-in-this-scenario-will-the-reader-get-clos' numeric
+@attribute 'hw cpp' numeric
+@attribute 'hw cpp &&' numeric
+@attribute 'i <' numeric
+@attribute 'i < 255' numeric
+@attribute 'i =' numeric
+@attribute 'i = 0' numeric
+@attribute 'i do' numeric
+@attribute 'i do follow' numeric
+@attribute 'i don' numeric
+@attribute 'i don t' numeric
+@attribute 'i for' numeric
+@attribute 'i for i' numeric
+@attribute 'i hav' numeric
+@attribute 'i have tot' numeric
+@attribute 'i ne' numeric
+@attribute 'i need to' numeric
+@attribute 'i nvr' numeric
+@attribute 'i nvr defin' numeric
+@attribute 'i us' numeric
+@attribute 'i use an' numeric
+@attribute 'i++ large_string[i]' numeric
+@attribute 'i++ large_string[i] =' numeric
+@attribute 'iOS 9' numeric
+@attribute 'iOS that' numeric
+@attribute 'iOS that i' numeric
+@attribute 'iPhone 3' numeric
+@attribute 'iPhone 3 mai' numeric
+@attribute 'idea whi' numeric
+@attribute 'idea why it' numeric
+@attribute 'if I' numeric
+@attribute 'if I m' numeric
+@attribute 'if Str' numeric
+@attribute 'if String =' numeric
+@attribute 'if a' numeric
+@attribute 'if a Str' numeric
+@attribute 'if funct' numeric
+@attribute 'if function lik' numeric
+@attribute 'if it' numeric
+@attribute 'if it ' numeric
+@attribute 'if str' numeric
+@attribute 'if str =' numeric
+@attribute 'if-statement nul' numeric
+@attribute 'illustrates th' numeric
+@attribute 'illustrates the issu' numeric
+@attribute 'in adv' numeric
+@attribute 'in us' numeric
+@attribute 'in use and' numeric
+@attribute 'ineligible specif' numeric
+@attribute 'ineligible specifically iPhon' numeric
+@attribute 'instead th' numeric
+@attribute 'instead the str' numeric
+@attribute 'int i' numeric
+@attribute 'int i for' numeric
+@attribute 'int main' numeric
+@attribute 'int main {' numeric
+@attribute 'ios 9' numeric
+@attribute 'ios 9 0' numeric
+@attribute 'ios develop' numeric
+@attribute 'ios development and' numeric
+@attribute 'ios iphon' numeric
+@attribute 'ios iphone xcod' numeric
+@attribute 'iphone xcod' numeric
+@attribute 'iphone xcode ios9' numeric
+@attribute 'is her' numeric
+@attribute 'is here Except' numeric
+@attribute 'is how' numeric
+@attribute 'is how th' numeric
+@attribute 'is not' numeric
+@attribute 'is not support' numeric
+@attribute 'is noth' numeric
+@attribute 'is nothing output' numeric
+@attribute 'is now' numeric
+@attribute 'is now inelig' numeric
+@attribute 'is nul' numeric
+@attribute 'is null or' numeric
+@attribute 'is said' numeric
+@attribute 'is said to' numeric
+@attribute 'is th' numeric
+@attribute 'is that' numeric
+@attribute 'is that w' numeric
+@attribute 'is the best' numeric
+@attribute 'is veri' numeric
+@attribute 'is very odd' numeric
+@attribute 'is vis' numeric
+@attribute 'is visible but' numeric
+@attribute 'isInTransaction at' numeric
+@attribute 'isInTransaction at System' numeric
+@attribute 'isn t' numeric
+@attribute 'isn t so' numeric
+@attribute 'issue I' numeric
+@attribute 'issue I hav' numeric
+@attribute 'issue i' numeric
+@attribute 'issue is that' numeric
+@attribute 'it ' numeric
+@attribute 'it NOT' numeric
+@attribute 'it NOT giv' numeric
+@attribute 'it becom' numeric
+@attribute 'it become th' numeric
+@attribute 'it doesn' numeric
+@attribute 'it doesn t' numeric
+@attribute 'it exist' numeric
+@attribute 'it existed So' numeric
+@attribute 'it furth' numeric
+@attribute 'it further illustr' numeric
+@attribute 'it s automat' numeric
+@attribute 'it s not' numeric
+@attribute 'it up' numeric
+@attribute 'it up anywai' numeric
+@attribute 'it wa' numeric
+@attribute 'it was onli' numeric
+@attribute 'it would' numeric
+@attribute 'it would b' numeric
+@attribute 'java str' numeric
+@attribute 'java string if-stat' numeric
+@attribute 'javascript jqueri' numeric
+@attribute 'knows an' numeric
+@attribute 'knows an explan' numeric
+@attribute 'large_string return' numeric
+@attribute 'large_string return 1' numeric
+@attribute 'large_string[256] int' numeric
+@attribute 'large_string[256] int i' numeric
+@attribute 'large_string[i] =' numeric
+@attribute 'large_string[i] = A' numeric
+@attribute 'like $' numeric
+@attribute 'like $ class1' numeric
+@attribute 'like Som' numeric
+@attribute 'like Some text' numeric
+@attribute 'like thi' numeric
+@attribute 'like this gcc' numeric
+@attribute 'like this if' numeric
+@attribute 'looks lik' numeric
+@attribute 'looks like Som' numeric
+@attribute 'm fairli' numeric
+@attribute 'm fairly new' numeric
+@attribute 'm get' numeric
+@attribute 'm getting an' numeric
+@attribute 'm run' numeric
+@attribute 'm running io' numeric
+@attribute 'main {' numeric
+@attribute 'main { char' numeric
+@attribute 'managed object' numeric
+@attribute 'managed object or' numeric
+@attribute 'max pool' numeric
+@attribute 'max pool s' numeric
+@attribute 'may b' numeric
+@attribute 'may be run' numeric
+@attribute 'may hav' numeric
+@attribute 'may have occur' numeric
+@attribute 'me understand' numeric
+@attribute 'me understand what' numeric
+@attribute 'memory stack' numeric
+@attribute 'memory stack segmentation-fault' numeric
+@attribute 'method anywai' numeric
+@attribute 'method explicitli' numeric
+@attribute 'method explicitly clos' numeric
+@attribute 'my app' numeric
+@attribute 'my app fair' numeric
+@attribute 'my devic' numeric
+@attribute 'my device i' numeric
+@attribute 'my device to' numeric
+@attribute 'need to' numeric
+@attribute 'need to se' numeric
+@attribute 'net-3 5' numeric
+@attribute 'net-3 5 sqlconnect' numeric
+@attribute 'new to' numeric
+@attribute 'new to io' numeric
+@attribute 'no idea' numeric
+@attribute 'no idea whi' numeric
+@attribute 'not Whi' numeric
+@attribute 'not Why do' numeric
+@attribute 'not support' numeric
+@attribute 'not supported bi' numeric
+@attribute 'not upgrad' numeric
+@attribute 'not upgrade to' numeric
+@attribute 'not whi' numeric
+@attribute 'not why would' numeric
+@attribute 'nothing output' numeric
+@attribute 'now even' numeric
+@attribute 'now even str' numeric
+@attribute 'now inelig' numeric
+@attribute 'now ineligible specif' numeric
+@attribute 'null Which' numeric
+@attribute 'null Which i' numeric
+@attribute 'null or' numeric
+@attribute 'null or isn' numeric
+@attribute 'null pass' numeric
+@attribute 'null passes for' numeric
+@attribute 'null right' numeric
+@attribute 'null right and' numeric
+@attribute 'null stil' numeric
+@attribute 'null still pass' numeric
+@attribute 'null which' numeric
+@attribute 'null which i' numeric
+@attribute 'null {' numeric
+@attribute 'null { }' numeric
+@attribute 'nvr defin' numeric
+@attribute 'nvr defined what' numeric
+@attribute 'object automat' numeric
+@attribute 'object automatically clos' numeric
+@attribute 'object or' numeric
+@attribute 'object or not' numeric
+@attribute 'objects I' numeric
+@attribute 'objects I am' numeric
+@attribute 'obtaining a' numeric
+@attribute 'obtaining a connect' numeric
+@attribute 'occurred becaus' numeric
+@attribute 'occurred because al' numeric
+@attribute 'odd sinc' numeric
+@attribute 'odd since i' numeric
+@attribute 'of Xcod' numeric
+@attribute 'of Xcode I' numeric
+@attribute 'of connect' numeric
+@attribute 'of connections Th' numeric
+@attribute 'of iOS' numeric
+@attribute 'of iOS that' numeric
+@attribute 'of scop' numeric
+@attribute 'of scope for' numeric
+@attribute 'of th' numeric
+@attribute 'of the word' numeric
+@attribute 'often i' numeric
+@attribute 'often i ne' numeric
+@attribute 'on that' numeric
+@attribute 'on that div' numeric
+@attribute 'only denfin' numeric
+@attribute 'only denfined that' numeric
+@attribute 'open connect' numeric
+@attribute 'open connection Shouldn' numeric
+@attribute 'options Boolean&' numeric
+@attribute 'options Boolean& isInTransact' numeric
+@attribute 'or a' numeric
+@attribute 'or a solut' numeric
+@attribute 'or isn' numeric
+@attribute 'or isn t' numeric
+@attribute 'or not' numeric
+@attribute 'or not Whi' numeric
+@attribute 'or wel' numeric
+@attribute 'or well pretti' numeric
+@attribute 'out of' numeric
+@attribute 'out of connect' numeric
+@attribute 'out of scop' numeric
+@attribute 'p a' numeric
+@attribute 'p a pr' numeric
+@attribute 'p blockquot' numeric
+@attribute 'p blockquote p' numeric
+@attribute 'p code' numeric
+@attribute 'p code cod' numeric
+@attribute 'p em' numeric
+@attribute 'p em cod' numeric
+@attribute 'p p' numeric
+@attribute 'p p a' numeric
+@attribute 'p p em' numeric
+@attribute 'p p p' numeric
+@attribute 'p p pre' numeric
+@attribute 'p p strong' numeric
+@attribute 'p pre' numeric
+@attribute 'p pre cod' numeric
+@attribute 'p strong' numeric
+@attribute 'p strong p' numeric
+@attribute 'passes for' numeric
+@attribute 'passes for som' numeric
+@attribute 'perform furth' numeric
+@attribute 'perform further act' numeric
+@attribute 'period elaps' numeric
+@attribute 'period elapsed prior' numeric
+@attribute 'pool Thi' numeric
+@attribute 'pool This mai' numeric
+@attribute 'pool siz' numeric
+@attribute 'pool size wa' numeric
+@attribute 'pooled connect' numeric
+@attribute 'pooled connections wer' numeric
+@attribute 'practise her' numeric
+@attribute 'practise here I' numeric
+@attribute 'pre cod' numeric
+@attribute 'pre code p' numeric
+@attribute 'pretty often' numeric
+@attribute 'pretty often i' numeric
+@attribute 'prior to' numeric
+@attribute 'prior to obtain' numeric
+@attribute 'property displai' numeric
+@attribute 'property display set' numeric
+@attribute 'question [here][1]' numeric
+@attribute 'question [here][1] and' numeric
+@attribute 'reached Sourc' numeric
+@attribute 'reached Source System' numeric
+@attribute 'reason th' numeric
+@attribute 'reason the str' numeric
+@attribute 'reason which' numeric
+@attribute 'reason which i' numeric
+@attribute 'related quest' numeric
+@attribute 'related question [here][1]' numeric
+@attribute 'return 1' numeric
+@attribute 'return 1 }' numeric
+@attribute 'right and' numeric
+@attribute 'right and eith' numeric
+@attribute 'run lik' numeric
+@attribute 'run like thi' numeric
+@attribute 'running a' numeric
+@attribute 'running a vers' numeric
+@attribute 'running io' numeric
+@attribute 'running ios 9' numeric
+@attribute 'running out' numeric
+@attribute 'running out of' numeric
+@attribute 's automat' numeric
+@attribute 's automatically nul' numeric
+@attribute 's compil' numeric
+@attribute 's compiled and' numeric
+@attribute 's not' numeric
+@attribute 's not whi' numeric
+@attribute 'said to' numeric
+@attribute 'said to g' numeric
+@attribute 'says mi' numeric
+@attribute 'says my devic' numeric
+@attribute 'scope for' numeric
+@attribute 'scope for such' numeric
+@attribute 'see how' numeric
+@attribute 'see how mi' numeric
+@attribute 'see if' numeric
+@attribute 'see if a' numeric
+@attribute 'seem to' numeric
+@attribute 'seem to b' numeric
+@attribute 'seen a' numeric
+@attribute 'seen a rel' numeric
+@attribute 'segmentation viol' numeric
+@attribute 'segmentation violation #includ' numeric
+@attribute 'set ha' numeric
+@attribute 'set has block' numeric
+@attribute 'since i' numeric
+@attribute 'since i nvr' numeric
+@attribute 'size wa' numeric
+@attribute 'size was reach' numeric
+@attribute 'so for' numeric
+@attribute 'so for som' numeric
+@attribute 'so i' numeric
+@attribute 'so i us' numeric
+@attribute 'solution SOLVED' numeric
+@attribute 'solution SOLVED Okei' numeric
+@attribute 'some reason' numeric
+@attribute 'some reason th' numeric
+@attribute 'some reason which' numeric
+@attribute 'something lik' numeric
+@attribute 'something like $' numeric
+@attribute 'specific class' numeric
+@attribute 'specific class and' numeric
+@attribute 'specifically iPhon' numeric
+@attribute 'specifically iPhone 3' numeric
+@attribute 'stack segmentation-fault' numeric
+@attribute 'standard do' numeric
+@attribute 'standard do I' numeric
+@attribute 'still pass' numeric
+@attribute 'str =' numeric
+@attribute 'str = null' numeric
+@attribute 'str then' numeric
+@attribute 'str then it' numeric
+@attribute 'str }' numeric
+@attribute 'str } int' numeric
+@attribute 'strcpy buff' numeric
+@attribute 'strcpy buffer str' numeric
+@attribute 'string doesn' numeric
+@attribute 'string doesn t' numeric
+@attribute 'string if-stat' numeric
+@attribute 'string if-statement nul' numeric
+@attribute 'string nul' numeric
+@attribute 'string of' numeric
+@attribute 'string of th' numeric
+@attribute 'string wa' numeric
+@attribute 'string was a' numeric
+@attribute 'strings that' numeric
+@attribute 'strings that ar' numeric
+@attribute 'strong p' numeric
+@attribute 'strong p p' numeric
+@attribute 'style us' numeric
+@attribute 'style using jQueri' numeric
+@attribute 'such an' numeric
+@attribute 'such an object' numeric
+@attribute 'supported bi' numeric
+@attribute 'supported by thi' numeric
+@attribute 't garbag' numeric
+@attribute 't garbage collector' numeric
+@attribute 't get' numeric
+@attribute 't get Do' numeric
+@attribute 't run' numeric
+@attribute 't running out' numeric
+@attribute 't seem' numeric
+@attribute 't seem to' numeric
+@attribute 't so' numeric
+@attribute 't so i' numeric
+@attribute 't work' numeric
+@attribute 't work Thank' numeric
+@attribute 'text 1' numeric
+@attribute 'text 1 I' numeric
+@attribute 'text 1 Som' numeric
+@attribute 'that ar' numeric
+@attribute 'that are nul' numeric
+@attribute 'that div' numeric
+@attribute 'that div I' numeric
+@attribute 'that i' numeric
+@attribute 'that is not' numeric
+@attribute 'that it' numeric
+@attribute 'that it exist' numeric
+@attribute 'that know' numeric
+@attribute 'that knows an' numeric
+@attribute 'that sai' numeric
+@attribute 'that says mi' numeric
+@attribute 'that w' numeric
+@attribute 'that we wer' numeric
+@attribute 'the Clos' numeric
+@attribute 'the Close method' numeric
+@attribute 'the SQLDataRead' numeric
+@attribute 'the SQLDataReader object' numeric
+@attribute 'the SqlClient' numeric
+@attribute 'the SqlClient SqlDataRead' numeric
+@attribute 'the best' numeric
+@attribute 'the best practis' numeric
+@attribute 'the cod' numeric
+@attribute 'the code look' numeric
+@attribute 'the div' numeric
+@attribute 'the div with' numeric
+@attribute 'the issu' numeric
+@attribute 'the issue I' numeric
+@attribute 'the pool' numeric
+@attribute 'the pool Thi' numeric
+@attribute 'the str' numeric
+@attribute 'the string doesn' numeric
+@attribute 'the string nul' numeric
+@attribute 'the string wa' numeric
+@attribute 'the word' numeric
+@attribute 'the word nul' numeric
+@attribute 'then it' numeric
+@attribute 'then it ' numeric
+@attribute 'there i' numeric
+@attribute 'there is noth' numeric
+@attribute 'this I' numeric
+@attribute 'this I had' numeric
+@attribute 'this Shouldn' numeric
+@attribute 'this Shouldn t' numeric
+@attribute 'this dai' numeric
+@attribute 'this day now' numeric
+@attribute 'this div' numeric
+@attribute 'this div I' numeric
+@attribute 'this gcc' numeric
+@attribute 'this gcc -Wal' numeric
+@attribute 'this if' numeric
+@attribute 'this if str' numeric
+@attribute 'this standard' numeric
+@attribute 'this standard do' numeric
+@attribute 'this vers' numeric
+@attribute 'this version of' numeric
+@attribute 'timeout period' numeric
+@attribute 'timeout period elaps' numeric
+@attribute 'to b' numeric
+@attribute 'to be nul' numeric
+@attribute 'to cal' numeric
+@attribute 'to call th' numeric
+@attribute 'to explicitli' numeric
+@attribute 'to explicitly clos' numeric
+@attribute 'to get' numeric
+@attribute 'to get th' numeric
+@attribute 'to giv' numeric
+@attribute 'to give a' numeric
+@attribute 'to io' numeric
+@attribute 'to ios 9' numeric
+@attribute 'to ios develop' numeric
+@attribute 'to obtain' numeric
+@attribute 'to obtaining a' numeric
+@attribute 'to perform' numeric
+@attribute 'to perform furth' numeric
+@attribute 'to se' numeric
+@attribute 'to see how' numeric
+@attribute 'to see if' numeric
+@attribute 'to upgrad' numeric
+@attribute 'to upgrade to' numeric
+@attribute 'to xcod' numeric
+@attribute 'to xcode 7' numeric
+@attribute 'totally no' numeric
+@attribute 'totally no idea' numeric
+@attribute 'tried us' numeric
+@attribute 'tried using someth' numeric
+@attribute 'understand what' numeric
+@attribute 'understand what i' numeric
+@attribute 'untill thi' numeric
+@attribute 'untill this dai' numeric
+@attribute 'up anywai' numeric
+@attribute 'up anyway Pleas' numeric
+@attribute 'upgrade to' numeric
+@attribute 'upgrade to xcod' numeric
+@attribute 'upgraded mi' numeric
+@attribute 'upgraded my devic' numeric
+@attribute 'use an' numeric
+@attribute 'use an if' numeric
+@attribute 'use and' numeric
+@attribute 'use and max' numeric
+@attribute 'using NET' numeric
+@attribute 'using NET Framework' numeric
+@attribute 'using jQueri' numeric
+@attribute 'using someth' numeric
+@attribute 'using something lik' numeric
+@attribute 'version of' numeric
+@attribute 'version of Xcod' numeric
+@attribute 'version of iOS' numeric
+@attribute 'very odd' numeric
+@attribute 'very odd sinc' numeric
+@attribute 'violation #includ' numeric
+@attribute 'violation #include #includ' numeric
+@attribute 'visible but' numeric
+@attribute 'visible but it' numeric
+@attribute 'void funct' numeric
+@attribute 'void function char' numeric
+@attribute 'want to' numeric
+@attribute 'want to get' numeric
+@attribute 'want to perform' numeric
+@attribute 'was a' numeric
+@attribute 'was a str' numeric
+@attribute 'was onli' numeric
+@attribute 'was only denfin' numeric
+@attribute 'was reach' numeric
+@attribute 'was reached Sourc' numeric
+@attribute 'way if' numeric
+@attribute 'way if it' numeric
+@attribute 'we hav' numeric
+@attribute 'we have to' numeric
+@attribute 'we wer' numeric
+@attribute 'we were run' numeric
+@attribute 'web appl' numeric
+@attribute 'web application Th' numeric
+@attribute 'well pretti' numeric
+@attribute 'well pretty often' numeric
+@attribute 'were in' numeric
+@attribute 'were in us' numeric
+@attribute 'were run' numeric
+@attribute 'were running out' numeric
+@attribute 'what i' numeric
+@attribute 'what is th' numeric
+@attribute 'what it' numeric
+@attribute 'what it wa' numeric
+@attribute 'when i' numeric
+@attribute 'when i do' numeric
+@attribute 'which i' numeric
+@attribute 'which i don' numeric
+@attribute 'which is veri' numeric
+@attribute 'why it' numeric
+@attribute 'why it would' numeric
+@attribute 'why would' numeric
+@attribute 'why would it' numeric
+@attribute 'with a' numeric
+@attribute 'with a specif' numeric
+@attribute 'with a web' numeric
+@attribute 'with class5' numeric
+@attribute 'with class5 hav' numeric
+@attribute 'with iOS' numeric
+@attribute 'with iOS 9' numeric
+@attribute 'word nul' numeric
+@attribute 'word null Which' numeric
+@attribute 'work Thank' numeric
+@attribute 'work Thanks in' numeric
+@attribute 'worked fin' numeric
+@attribute 'worked fine until' numeric
+@attribute 'would b' numeric
+@attribute 'would be becaus' numeric
+@attribute 'would it' numeric
+@attribute 'would it becom' numeric
+@attribute 'xcode 7' numeric
+@attribute 'xcode 7 beta' numeric
+@attribute 'xcode 7 if' numeric
+@attribute 'xcode ios9' numeric
+@attribute '{ char' numeric
+@attribute '{ char buffer[16]' numeric
+@attribute '{ char large_string[256]' numeric
+@attribute '{ }' numeric
+@attribute '{ } It' numeric
+@attribute '} It' numeric
+@attribute '} It ' numeric
+@attribute '} It work' numeric
+@attribute '} int' numeric
+@attribute '} int main' numeric
+@attribute position2 {0,1}
+
+@data
+{0 3,1 310,2 10,3 5,4 1,9 4784211.644983,10 4783620.91165,11 9.01,12 10.746,13 11.208,14 8,15 86,16 58,17 7.259,18 10.8,19 7.562,20 66.676,21 264,22 4,23 0.210243,24 1,25 1,26 1,27 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,41 1,42 1,47 1,48 1,49 1,50 1,66 1,67 1,68 1,69 1,70 1,71 1,75 1,76 1,79 1,80 1,134 1,135 1,144 1,145 1,199 1,200 1,217 1,219 1,234 1,235 1,240 1,241 1,282 1,283 1,312 1,313 1,324 1,325 1,326 1,327 1,332 1,333 1,338 1,339 1,340 1,341 1,342 1,343 1,366 1,367 1,373 1,375 1,376 1,377 1,382 1,383 1,392 1,393 1,426 1,427 1,439 1,440 1,447 1,448 1,472 1,473 1,480 1,481 1,482 1,483 1,492 1,493 1,500 1,501 1,533 1,534 1,535 1,536 1,537 1,538 1,543 1,544 1,553 1,554 1,584 1,585 1,586 1,587 1,602 1,603 1,608 1,609 1,627 1,628 1,650 1,651 1,652 1,653 1,654 1,655 1,660 1,661 1,671 1,672 1,683 1,684 1,709 1,779 1,780 1,781 1,783 1,786 1,787 1,788 1,789 1,790 1,805 1,806 1,823 1,824 1,827 1,828 1,837 1,838 1,841 1,842 1,855 1,856 1,878 1,886 1,887 1,888 1,889 1,901 1,902 1,962 1,963 1,972 1,973 1,990 1,991 1,1034 1,1035 1,1038 1,1039 1,1097 1,1098 1,1099 1,1102 1,1103 1,1105 1,1106 1,1107 1}
+{0 18,1 17911,2 8,4 2,6 1,9 2045704.201433,10 1445415.784767,11 4.964,12 9,13 9.387,14 6,15 110,16 74,17 4.174,18 8.8,19 7.723,20 66.056,21 286,22 5,23 0.129199,39 1,40 1,53 1,54 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,103 1,104 1,107 1,108 1,113 1,116 1,118 1,119 1,120 1,121 1,124 1,125 1,132 1,133 1,220 1,221 1,222 1,223 1,248 1,249 1,262 1,263 1,274 1,275 1,288 1,289 1,304 1,305 1,316 1,317 1,318 1,319 1,322 1,323 1,330 1,331 1,404 1,405 1,406 1,407 1,408 1,409 1,410 1,411 1,419 1,421 1,443 1,444 1,458 1,459 1,460 1,461 1,498 1,499 1,512 1,514 1,527 1,528 1,555 1,556 1,557 1,558 1,559 1,562 1,563 1,580 1,581 1,588 1,589 1,590 1,591 1,592 1,593 1,594 1,595 1,600 1,601 1,604 1,605 1,665 1,666 1,667 1,668 1,669 1,670 1,677 1,678 1,688 1,689 1,690 1,691 1,692 1,697 1,698 1,703 1,704 1,705 1,706 1,712 1,713 1,742 1,743 1,746 1,747 1,775 1,776 1,781 1,829 1,830 1,831 1,832 1,843 1,844 1,847 1,848 1,876 1,877 1,879 1,880 1,907 1,908 1,928 1,929 1,934 1,935 1,976 1,977 1,978 1,979 1,992 1,993 1,994 1,999 1,1000 1,1002 1,1003 1,1004 1,1005 1,1016 1,1017 1,1018 1,1019 1,1029 1,1030 1,1031 1,1081 1,1082 1,1093 1,1094 1,1095 1,1096 1}
+{0 3,1 4396,2 7,3 14,4 1,6 1,9 3837861.4023,10 3837068.368967,11 5.527,12 8.855,13 9.236,14 8,15 168,16 129,17 5.638,18 9.6,19 6.965,20 77.953,21 489,22 7,23 0.060494,72 1,73 1,74 1,91 1,92 1,136 1,137 1,146 1,147 1,154 1,155 1,161 1,162 1,165 1,166 1,186 1,187 1,188 1,189 1,190 1,191 1,213 1,214 1,230 1,231 1,242 1,243 1,246 1,247 1,264 1,265 1,266 1,267 1,276 1,277 1,284 1,285 1,292 1,293 1,298 1,299 1,300 1,301 1,302 1,303 1,308 1,309 1,310 1,311 1,373 1,375 1,396 1,397 1,398 1,399 1,400 1,401 1,422 1,423 1,428 1,429 1,431 1,432 1,433 1,434 1,445 1,446 1,449 1,450 1,453 1,454 1,466 1,467 1,470 1,471 1,474 1,475 1,484 1,485 1,494 1,495 1,515 1,516 1,539 1,540 1,541 1,542 1,545 1,546 1,547 1,548 1,549 1,550 1,551 1,552 1,560 1,561 1,564 1,565 1,566 1,567 1,568 1,569 1,570 1,571 1,572 1,573 1,574 1,582 1,583 1,606 1,607 1,614 1,615 1,620 1,621 1,626 1,629 1,630 1,633 1,634 1,637 1,638 1,641 1,642 1,643 1,644 1,645 1,646 1,648 1,649 1,660 1,662 1,693 1,694 1,699 1,700 1,707 1,708 1,710 1,711 1,714 1,715 1,716 1,717 1,718 1,719 1,720 1,721 1,722 1,723 1,724 1,725 1,726 1,727 1,728 1,729 1,740 1,741 1,750 1,751 1,752 1,753 1,756 1,757 1,762 1,763 1,764 1,765 1,768 1,769 1,781 1,785 1,787 1,788 1,791 1,792 1,805 1,806 1,807 1,808 1,817 1,818 1,819 1,820 1,825 1,826 1,835 1,836 1,839 1,840 1,849 1,850 1,851 1,852 1,859 1,860 1,863 1,864 1,865 1,866 1,867 1,868 1,869 1,870 1,871 1,881 1,882 1,883 1,884 1,885 1,890 1,891 1,892 1,893 1,894 1,895 1,896 1,897 1,898 1,899 1,900 1,911 1,912 1,915 1,916 1,917 1,918 1,924 1,925 1,930 1,931 1,932 1,933 1,954 1,955 1,956 1,957 1,958 1,959 1,960 1,961 1,968 1,969 1,974 1,975 1,982 1,983 1,999 1,1001 1,1006 1,1007 1,1012 1,1013 1,1020 1,1021 1,1032 1,1033 1,1043 1,1044 1,1045 1,1046 1,1049 1,1050 1,1057 1,1058 1,1065 1,1066 1,1067 1,1068 1,1069 1,1070 1,1071 1,1072 1,1073 1,1074 1,1075 1,1083 1,1084 1,1087 1,1088 1,1089 1,1090 1,1091 1,1092 1,1100 1,1101 1,1102 1,1104 1}
+{0 17,1 11104,2 8,4 5,6 1,9 5526545.186683,10 2191837.65335,11 9.094,12 9.831,13 10.254,14 14,15 161,16 106,17 5.965,18 9.6,19 6.926,20 66.384,21 484,22 9,23 0.011603,38 1,51 1,52 1,55 1,56 1,57 1,77 1,78 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,93 1,94 1,95 1,96 1,97 1,98 1,105 1,106 1,111 1,112 1,113 1,114 1,117 1,128 1,129 1,130 1,131 1,138 1,139 1,140 1,141 1,142 1,143 1,150 1,151 1,152 1,153 1,156 1,157 1,158 1,159 1,160 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,192 1,193 1,194 1,195 1,196 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,215 1,216 1,217 1,218 1,224 1,225 1,226 1,227 1,228 1,229 1,232 1,233 1,236 1,237 1,238 1,239 1,250 1,251 1,254 1,255 1,256 1,257 1,258 1,259 1,268 1,269 1,270 1,271 1,278 1,279 1,280 1,281 1,286 1,287 1,290 1,291 1,294 1,295 1,296 1,297 1,306 1,307 1,314 1,315 1,334 1,335 1,336 1,337 1,358 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,373 1,375 1,380 1,381 1,384 1,385 1,386 1,387 1,388 1,389 1,390 1,391 1,402 1,403 1,424 1,425 1,435 1,436 1,441 1,442 1,451 1,452 1,455 1,456 1,457 1,468 1,469 1,476 1,477 1,478 1,479 1,488 1,489 1,490 1,491 1,502 1,503 1,506 1,507 1,508 1,509 1,512 1,513 1,517 1,518 1,521 1,522 1,523 1,524 1,525 1,526 1,531 1,532 1,575 1,576 1,578 1,579 1,596 1,597 1,610 1,611 1,612 1,613 1,618 1,619 1,622 1,623 1,624 1,625 1,635 1,636 1,639 1,640 1,673 1,674 1,675 1,676 1,679 1,680 1,681 1,682 1,685 1,686 1,687 1,695 1,696 1,701 1,702 1,730 1,731 1,732 1,733 1,734 1,735 1,736 1,737 1,738 1,739 1,744 1,745 1,748 1,749 1,758 1,759 1,760 1,761 1,766 1,767 1,770 1,771 1,772 1,773 1,774 1,781 1,782 1,784 1,795 1,796 1,797 1,798 1,799 1,800 1,801 1,802 1,803 1,804 1,805 1,806 1,809 1,810 1,813 1,814 1,815 1,816 1,821 1,822 1,833 1,834 1,845 1,846 1,853 1,854 1,861 1,862 1,905 1,906 1,909 1,910 1,913 1,914 1,936 1,937 1,938 1,939 1,940 1,941 1,942 1,943 1,944 1,945 1,950 1,951 1,952 1,953 1,964 1,965 1,966 1,967 1,980 1,981 1,984 1,985 1,986 1,987 1,995 1,996 1,1010 1,1011 1,1014 1,1015 1,1022 1,1023 1,1024 1,1025 1,1047 1,1048 1,1051 1,1052 1,1053 1,1054 1,1055 1,1056 1,1059 1,1060 1,1061 1,1062 1,1063 1,1064 1,1076 1,1078 1}
+{1 52,2 7,3 3,6 1,9 1139987.103767,10 1139810.720433,11 5.352,12 8.477,13 8.842,14 2,15 55,16 46,17 7.784,18 10.8,19 7.489,20 82.338,21 173,22 2,23 0.153465,28 1,29 1,43 1,44 1,45 1,46 1,81 1,82 1,99 1,100 1,101 1,102 1,109 1,110 1,113 1,115 1,122 1,123 1,126 1,127 1,148 1,149 1,163 1,164 1,197 1,198 1,244 1,245 1,252 1,253 1,260 1,261 1,272 1,273 1,320 1,321 1,328 1,329 1,344 1,345 1,346 1,347 1,348 1,349 1,350 1,351 1,352 1,353 1,354 1,355 1,356 1,357 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,378 1,379 1,394 1,395 1,412 1,413 1,414 1,415 1,416 1,417 1,418 1,419 1,420 1,428 1,430 1,437 1,438 1,462 1,463 1,464 1,465 1,486 1,487 1,496 1,497 1,504 1,505 1,510 1,511 1,519 1,520 1,529 1,530 1,577 1,598 1,599 1,616 1,617 1,631 1,632 1,647 1,656 1,657 1,658 1,659 1,663 1,664 1,754 1,755 1,777 1,778 1,787 1,788 1,793 1,794 1,805 1,806 1,811 1,812 1,857 1,858 1,872 1,873 1,874 1,875 1,903 1,904 1,919 1,920 1,921 1,922 1,923 1,926 1,927 1,946 1,947 1,948 1,949 1,970 1,971 1,988 1,989 1,997 1,998 1,1008 1,1009 1,1026 1,1027 1,1028 1,1036 1,1037 1,1040 1,1041 1,1042 1,1076 1,1077 1,1079 1,1080 1,1085 1,1086 1}

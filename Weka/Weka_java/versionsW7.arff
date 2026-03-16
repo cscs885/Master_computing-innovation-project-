@@ -1,0 +1,56 @@
+@relation Post
+
+@attribute Score numeric
+@attribute ViewCount numeric
+@attribute AnswerCount numeric
+@attribute CommentCount numeric
+@attribute FavoriteCount numeric
+@attribute PostTypeId {1,2}
+@attribute AcceptedAnswer {0,1}
+@attribute Edited {0,1}
+@attribute Body string
+@attribute Title string
+@attribute Tags string
+@attribute Id string
+@attribute ParentId string
+@attribute OwnerUserId string
+@attribute OwnerDisplayName string
+@attribute LastEditorUserId string
+@attribute LastEditorDisplayName string
+@attribute CreationDate date 'yyyy-MM-dd\'T\'HH:mm:ss'
+@attribute LastEditDate date 'yyyy-MM-dd\'T\'HH:mm:ss'
+@attribute LastActivityDate date 'yyyy-MM-dd\'T\'HH:mm:ss'
+@attribute ClosedDate date 'yyyy-MM-dd\'T\'HH:mm:ss'
+@attribute CommunityOwnedDate date 'yyyy-MM-dd\'T\'HH:mm:ss'
+@attribute OwnerType {1,2}
+@attribute Closed {0,1}
+@attribute NowMinusCreation numeric
+@attribute NowMinusLastActivity numeric
+@attribute HTMLTags string
+@attribute PureText string
+@attribute CHARACTERS numeric
+@attribute FLESCH_KINCAID numeric
+@attribute ARI numeric
+@attribute SYLLABLES numeric
+@attribute SENTENCES numeric
+@attribute COLEMAN_LIAU numeric
+@attribute GUNNING_FOG numeric
+@attribute COMPLEXWORDS numeric
+@attribute SMOG_INDEX numeric
+@attribute SMOG numeric
+@attribute FLESCH_READING numeric
+@attribute WORDS numeric
+@attribute normalBlock string
+@attribute codeBlock string
+@attribute oriText string
+@attribute modifiedText string
+@attribute position {0,1,2}
+@attribute operation {0,1,2}
+@attribute purifiedOriText string
+@attribute purifiedModifiedText string
+@attribute levenshtein numeric
+@attribute position2 {0,1}
+@attribute similarity {0,1}
+
+@data
+3,310,10,5,1,1,0,1,'<p>The code below is said to give a segmentation violation:</p>&#xA;&#xA;<pre><code>#include &lt;stdio.h&gt; &#xA;#include &lt;string.h&gt; &#xA;&#xA;void function(char *str) {&#xA;   char buffer[16];&#xA;&#xA;   strcpy(buffer,str);&#xA;}&#xA;&#xA;int main() {&#xA;  char large_string[256];&#xA;  int i;&#xA;&#xA;  for( i = 0; i &lt; 255; i++)&#xA;    large_string[i] = \'A\';&#xA;&#xA;  function(large_string);&#xA;  return 1;&#xA;}&#xA;</code></pre>&#xA;&#xA;<p>It\'s compiled and run like this:</p>&#xA;&#xA;<pre><code>gcc -Wall -Wextra hw.cpp &amp;&amp; a.exe&#xA;</code></pre>&#xA;&#xA;<p>But there is nothing output.</p>&#xA;&#xA;<p><strong>NOTE</strong></p>&#xA;&#xA;<p>The above code indeed overwrites the ret address and so on if you really understand what\'s going underneath.</p>&#xA;&#xA;<p>The <em>ret</em> address will be <code>0x41414141</code> to be specific.</p>&#xA;&#xA;<p><strong>Important</strong>&#xA;This requires profound knowledge of stack</p>&#xA;','Why does it NOT give a segmentation violation?',' c  memory  stack  segmentation-fault ',2542647,?,198729,'',198729,'',2010-03-30T03:12:29,2010-03-30T03:47:22,2010-03-30T13:03:13,?,?,1,0,4784211.644983,4783620.91165,'p pre code p pre code p p strong p p em code p strong ','The code below is said to give a segmentation violation: #include <stdio.h> \n#include <string.h> \n\nvoid function(char *str) {\n   char buffer[16];\n\n   strcpy(buffer,str);\n}\n\nint main() {\n  char large_string[256];\n  int i;\n\n  for( i = 0; i < 255; i++)\n    large_string[i] = \'A\';\n\n  function(large_string);\n  return 1;\n}\n It\'s compiled and run like this: gcc -Wall -Wextra hw.cpp && a.exe\n But there is nothing output. NOTE The above code indeed overwrites the ret address and so on if you really understand what\'s going underneath. The ret address will be 0x41414141 to be specific. Important This requires profound knowledge of stack The code below is said to give a segmentation violation: #include <stdio.h> \n#include <string.h> \n\nvoid function(char *str) {\n   char buffer[16];\n\n   strcpy(buffer,str);\n}\n\nint main() {\n  char large_string[256];\n  int i;\n\n  for( i = 0; i < 255; i++)\n    large_string[i] = \'A\';\n\n  function(large_string);\n  return 1;\n} #include <stdio.h> \n#include <string.h> \n\nvoid function(char *str) {\n   char buffer[16];\n\n   strcpy(buffer,str);\n}\n\nint main() {\n  char large_string[256];\n  int i;\n\n  for( i = 0; i < 255; i++)\n    large_string[i] = \'A\';\n\n  function(large_string);\n  return 1;\n} It\'s compiled and run like this: gcc -Wall -Wextra hw.cpp && a.exe gcc -Wall -Wextra hw.cpp && a.exe But there is nothing output. NOTE NOTE The above code indeed overwrites the ret address and so on if you really understand what\'s going underneath. The ret address will be 0x41414141 to be specific. ret 0x41414141 Important This requires profound knowledge of stack Important',9.01,10.746,11.208,8,86,58,7.259,10.8,7.562,66.676,264,4,'The code below is said to give a segmentation violation: It\'s compiled and run like this: But there is nothing output. NOTE The above code indeed overwrites the ret address and so on if you really understand what\'s going underneath. The ret address will be 0x41414141 to be specific. Important This requires profound knowledge of stack','#include <stdio.h> \n#include <string.h> \n\nvoid function(char *str) {\n   char buffer[16];\n\n   strcpy(buffer,str);\n}\n\nint main() {\n  char large_string[256];\n  int i;\n\n  for( i = 0; i < 255; i++)\n    large_string[i] = \'A\';\n\n  function(large_string);\n  return 1;\n} gcc -Wall -Wextra hw.cpp && a.exe 0x41414141','The code below is said to give a segmentation violation:&#xD;&#xA;&#xD;&#xA;    #include <stdio.h> &#xD;&#xA;    #include <string.h> &#xD;&#xA;     &#xD;&#xA;    void function(char *str) {&#xD;&#xA;       char buffer[16];&#xD;&#xA;    &#xD;&#xA;       strcpy(buffer,str);&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;    int main() {&#xD;&#xA;      char large_string[256];&#xD;&#xA;      int i;&#xD;&#xA;    &#xD;&#xA;      for( i = 0; i < 255; i++)&#xD;&#xA;        large_string[i] = \'A\';&#xD;&#xA;    &#xD;&#xA;      function(large_string);&#xD;&#xA;      return 1;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;It\'s compiled and run like this:&#xD;&#xA;&#xD;&#xA;    gcc -Wall -Wextra hw.cpp && a.exe&#xD;&#xA;&#xD;&#xA;But there is nothing output.&#xD;&#xA;','The code below is said to give a segmentation violation:&#xD;&#xA;&#xD;&#xA;    #include <stdio.h> &#xD;&#xA;    #include <string.h> &#xD;&#xA;     &#xD;&#xA;    void function(char *str) {&#xD;&#xA;       char buffer[16];&#xD;&#xA;    &#xD;&#xA;       strcpy(buffer,str);&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;    int main() {&#xD;&#xA;      char large_string[256];&#xD;&#xA;      int i;&#xD;&#xA;    &#xD;&#xA;      for( i = 0; i < 255; i++)&#xD;&#xA;        large_string[i] = \'A\';&#xD;&#xA;    &#xD;&#xA;      function(large_string);&#xD;&#xA;      return 1;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;It\'s compiled and run like this:&#xD;&#xA;&#xD;&#xA;    gcc -Wall -Wextra hw.cpp && a.exe&#xD;&#xA;&#xD;&#xA;But there is nothing output.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;**NOTE**&#xD;&#xA;&#xD;&#xA;The above code indeed overwrites the ret address and so on if you really understand what\'s going underneath.',1,0,'The code below is said to give a segmentation violation: #include #include void function(char *str) { char buffer[16]; strcpy(buffer,str); } int main() { char large_string[256]; int i; for( i = 0; i < 255; i++) large_string[i] = \'A\'; function(large_string); return 1; } It\'s compiled and run like this: gcc -Wall -Wextra hw.cpp && a.exe But there is nothing output.','The code below is said to give a segmentation violation: #include #include void function(char *str) { char buffer[16]; strcpy(buffer,str); } int main() { char large_string[256]; int i; for( i = 0; i < 255; i++) large_string[i] = \'A\'; function(large_string); return 1; } It\'s compiled and run like this: gcc -Wall -Wextra hw.cpp && a.exe But there is nothing output. **NOTE** The above code indeed overwrites the ret address and so on if you really understand what\'s going underneath.',0.210243,1,1

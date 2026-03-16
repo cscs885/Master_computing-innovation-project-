@@ -1,0 +1,91 @@
+<style>
+  table {
+    border-collapse: collapse; /* 合并边框，无间隙 */
+    width: 100%;
+    table-layout: fixed; /* 固定布局，避免列宽错乱 */
+  }
+  /* 第一列attributes单元格样式 */
+  .attributes-col {
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+  }
+  th, td {
+    border: 1px solid #000;
+    padding: 4px;
+    text-align: center;
+  }
+</style>
+
+<table>
+  <!-- 第一行：表头大标题，第一列空占位 -->
+  <tr>
+    <th>1</th> <!-- 第一列空单元格（第一行） -->
+    <th colspan="6">InfoGainAttributeEval</th>
+
+  </tr>
+  <!-- 第二行：表头小标题，第一列空占位 -->
+  <tr>
+    <th>1</th> <!-- 第一列空单元格（第二行） -->
+
+    <th>attributes name</th>
+    <th>Position</th>
+    <th>attributes name</th>
+    <th>Position</th>
+    <th>attributes name</th>
+    <th>Similarity</th>
+  </tr>
+  <!-- 第三行：开始显示attributes，跨6行（第三到第八行） -->
+  <tr>
+    <th class="attributes-col" rowspan="5">Ranker 5</th> <!-- rowspan=6 覆盖6行数据行 -->
+    <td>AnswerCount</td>
+    <td>0.5812</td>
+    <td>AnswerCount</td>
+    <td>0.5302</td>
+    <td>AnswerCount</td>
+    <td>0.02423 </td>
+
+  </tr>
+  <!-- 第四行：无第一列单元格（被attributes跨行覆盖） -->
+  <tr>
+    <td>ViewCount</td>
+    <td>0.3027</td>
+    <td>WORDS</td>
+    <td>0.3391 </td>
+    <td>//stackoverflow</td>
+    <td>0.01489</td>
+
+  </tr>
+  <!-- 第五行：无第一列单元格 -->
+  <tr>
+    <td>PostTypeId</td>
+    <td>0.2933</td>
+    <td>SYLLABLES</td>
+    <td>0.325</td>
+    <td> =</td>
+    <td>0.00683</td>
+
+  </tr>
+  <!-- 第六行：无第一列单元格 -->
+  <tr>
+    <td>AcceptedAnswer</td>
+    <td>0.104</td>
+    <td>CommentCount</td>
+    <td>0.2782</td>
+    <td>{</td>
+    <td>0.00636</td>
+
+  </tr>
+  <!-- 第七行：无第一列单元格 -->
+  <tr>
+    <td>I</td>
+    <td>0.0806</td>
+    <td>COMPLEXWORDS</td>
+    <td>0.2769</td>
+    <td> }</td>
+    <td>0.0058 </td>
+
+  </tr>
+</table>
